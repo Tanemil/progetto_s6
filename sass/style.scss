@@ -1,0 +1,39 @@
+body{
+
+    background-color: #FEFAE0;
+    nav{
+        background-color: #FAEDCD;
+    }
+    div.under_nav{
+        background-image: url(../img/mountains-7208596_1920.jpg);
+        background-position: center;
+        color: white;
+        .btn{
+            border: solid 1px #D4A373;
+            color: #D4A373;
+        }
+        .btn:hover{
+            background-color: #D4A373;
+            color: white;
+        }
+    }
+    div#myCarousel{
+        div.carousel-inner{
+            div.carousel-item{
+                height: 32vw;
+                img{
+                    position: absolute;
+                    width: 100%;
+                    top: -120px;
+                }
+            }
+        }
+    }
+    footer{
+        background-color: #D4A373;
+    }
+
+    .card-header{
+        background-color: #D4A373;
+    }
+}
